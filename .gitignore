@@ -1,0 +1,41 @@
+# IAR build products and local sessions
+Project/iar/**/nor_sdram_zf_dtcm/
+Project/iar/**/settings/
+*.dep
+*.ewd
+*.ewt
+*.wsdt
+# Keil build products and local debug settings
+Project/mdk/Objects/
+Project/mdk/Listings/
+*.uvoptx
+*.uvguix.*
+JLinkSettings.ini
+*.jlink
+*.o
+*.obj
+*.out
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.pbi
+*.pbd
+*.pbw
+*.xcl
+*.tmp
+*.bak
+# Keep required third-party .a/.lib link inputs tracked
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.zip
+*.7z
+*.rar
